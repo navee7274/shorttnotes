@@ -11,11 +11,11 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v2.1.0
 
     - name: Upload files to cPanel
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        server: ftp.thysics.org  # Replace with your cPanel FTP server
+        server: ${{ secrets.FTP_SERVER }}  # Replace with your cPanel FTP server
         username: ${{ secrets.CPANEL_USERNAME }}
         password: ${{ secrets.CPANEL_PASSWORD }}
