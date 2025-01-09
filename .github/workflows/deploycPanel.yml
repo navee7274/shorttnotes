@@ -16,6 +16,6 @@ jobs:
     - name: Upload files to cPanel
       uses: SamKirkland/FTP-Deploy-Action@3.1.1
       with:
-        server: ${{ secrets.FTP_SERVER }}  # Replace with your cPanel FTP server
-        username: ${{ secrets.CPANEL_USERNAME }}
-        password: ${{ secrets.CPANEL_PASSWORD }}
+        ftp-server: ${{ secrets.FTP_SERVER }}  # Replace with your cPanel FTP server
+        ftp-username: ${{ secrets.CPANEL_USERNAME }}
+        ftp-password: ${{ secrets.CPANEL_PASSWORD }}
