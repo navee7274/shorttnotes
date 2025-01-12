@@ -3,7 +3,7 @@
 
 <head>
   <?php include("../includes/head_part.php"); ?>
-  <link href="/stylesheets/indexes.css?v=8" rel="stylesheet" />
+  <link href="/stylesheets/indexes.css?v=<?php echo $refreshNum; ?>" rel="stylesheet" />
 
   <title>Physics Short Notes | THYSICS.ORG</title>
 </head>

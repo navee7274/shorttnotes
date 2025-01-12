@@ -79,10 +79,6 @@ h2 {
   font-size: var(--fs-450);
 }
 
-h2.sinhala {
-  font-family: var(--font-third);
-}
-
 h3 {
   font-size: var(--fs-400);
 }

@@ -3,7 +3,7 @@
 
 <head>
   <?php include("../includes/head_part.php"); ?>
-  <link href="/stylesheets/indexes.css?v=8" rel="stylesheet" />
+  <link href="/stylesheets/indexes.css?v=<?php echo $refreshNum; ?>" rel="stylesheet" />
 
   <title>Maths Short Notes | THYSICS.ORG</title>
 </head>
@@ -11,7 +11,7 @@
 <body>
   <?php include '../includes/navigation.php'; ?>
   <section id="section-hero">
-    <h1>වීජ ගණිතය</h1>
+    <h1 class="sinhala">වීජ ගණිතය</h1>
     <div class="third-cover-wrapper">
       <img class="third-cover" src="/images/noindex/mathspage/halftone.svg" alt="">
     </div>
