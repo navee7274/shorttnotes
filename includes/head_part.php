@@ -1,4 +1,4 @@
-<base href="http://192.168.8.180:3000/">
+<base href="https://thysics.org/">
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
