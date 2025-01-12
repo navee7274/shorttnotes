@@ -5,5 +5,5 @@
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link rel="preconnect" href="https://cdn.rmulive.com" />
-<link href="/stylesheets/style.css?v=12" rel="stylesheet" />
+<link href="/stylesheets/style.css?v=15" rel="stylesheet" />
 <?php $refreshNum = 50; ?>
