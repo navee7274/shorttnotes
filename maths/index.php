@@ -109,6 +109,14 @@
         <li><a href="">සරල රේඛාව</a>
           <div class="note-counter">2</div>
         </li>
+        <li><a href="">වෘත්තය</a>
+          <div class="note-counter">3</div>
+        </li>
+      </ul>
+      <a href="/maths/geometry.php">
+        <h3>කලනය</h3>
+      </a>
+      <ul class="lesson-listing">
         <li><a href="">අවකලනය</a>
           <div class="note-counter">3</div>
         </li>
